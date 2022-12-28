@@ -1,0 +1,334 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "D:\\Blockchain\\solidity\\cross_chain_bridge\\practise2\\contracts\\BEP20.sol": {
+      "lastModificationDate": 1671017733920,
+      "contentHash": "cb40fc8b33809b7ad4971bdd51ac0b3e",
+      "sourceName": "contracts/BEP20.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IBEP20.sol",
+        "./extensions/IBEP20Metadata.sol",
+        "./utils/Context.sol",
+        "./Blacklist.sol",
+        "./utils/Ownable.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.17"
+      ],
+      "artifacts": [
+        "BEP20"
+      ]
+    },
+    "D:\\Blockchain\\solidity\\cross_chain_bridge\\practise2\\contracts\\IBEP20.sol": {
+      "lastModificationDate": 1671014419313,
+      "contentHash": "3f1a2a308c5bf8c416403b0d7f1fbf27",
+      "sourceName": "contracts/IBEP20.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.17"
+      ],
+      "artifacts": [
+        "IBEP20"
+      ]
+    },
+    "D:\\Blockchain\\solidity\\cross_chain_bridge\\practise2\\contracts\\utils\\Context.sol": {
+      "lastModificationDate": 1671016300660,
+      "contentHash": "5b0e6085ca76a8214283653462288a95",
+      "sourceName": "contracts/utils/Context.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.17"
+      ],
+      "artifacts": [
+        "Context"
+      ]
+    },
+    "D:\\Blockchain\\solidity\\cross_chain_bridge\\practise2\\contracts\\utils\\Ownable.sol": {
+      "lastModificationDate": 1671016480438,
+      "contentHash": "6e626dd2be8a90e71da77ed357a87d39",
+      "sourceName": "contracts/utils/Ownable.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./Context.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.17"
+      ],
+      "artifacts": [
+        "Ownable"
+      ]
+    },
+    "D:\\Blockchain\\solidity\\cross_chain_bridge\\practise2\\contracts\\extensions\\IBEP20Metadata.sol": {
+      "lastModificationDate": 1671016199167,
+      "contentHash": "22d1dd072d5d6b548b721ca84e612835",
+      "sourceName": "contracts/extensions/IBEP20Metadata.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../IBEP20.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.17"
+      ],
+      "artifacts": [
+        "IBEP20Metadata"
+      ]
+    },
+    "D:\\Blockchain\\solidity\\cross_chain_bridge\\practise2\\contracts\\Blacklist.sol": {
+      "lastModificationDate": 1671017694388,
+      "contentHash": "292fe13491e00521cef5696b74bcfdb9",
+      "sourceName": "contracts/Blacklist.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./utils/Ownable.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.17"
+      ],
+      "artifacts": [
+        "Blacklist"
+      ]
+    },
+    "D:\\Blockchain\\solidity\\cross_chain_bridge\\practise2\\contracts\\CRA.sol": {
+      "lastModificationDate": 1671620970371,
+      "contentHash": "7c11b6cbce8f547a5bff8d154f81d376",
+      "sourceName": "contracts/CRA.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./BEP20.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.17"
+      ],
+      "artifacts": [
+        "CRA"
+      ]
+    },
+    "D:\\Blockchain\\solidity\\cross_chain_bridge\\practise2\\contracts\\Migrations.sol": {
+      "lastModificationDate": 1639638273175,
+      "contentHash": "50b3b1dc92806dc8f604fc8c5c65518f",
+      "sourceName": "contracts/Migrations.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.4.22 <0.9.0"
+      ],
+      "artifacts": [
+        "Migrations"
+      ]
+    },
+    "D:\\Blockchain\\solidity\\cross_chain_bridge\\practise2\\contracts\\utils\\Safemath.sol": {
+      "lastModificationDate": 1671016397316,
+      "contentHash": "9b1712a81f432904c322735b19a7b54b",
+      "sourceName": "contracts/utils/Safemath.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.17"
+      ],
+      "artifacts": [
+        "SafeMath"
+      ]
+    }
+  }
+}
